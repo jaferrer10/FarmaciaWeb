@@ -82,3 +82,4 @@ class compra(models.Model):
     factura = models.CharField(max_length=20)
     fecha = models.DateTimeField(auto_now=True)
     proveedor = models.ForeignKey(proveedor, null=False, blank=False, on_delete=models.CASCADE)
+
